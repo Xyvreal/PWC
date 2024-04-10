@@ -27,7 +27,7 @@ class Menu<T>
 
         public void MethodMenu(string methodName, object target = null, bool main = false, params string[] methods)
         {
-            Util.FancyS("Please choose one of the following options:\n\n");
+            Util.FancyS("Please choose one of the following options:\n\n", true);
             int number = 1;
             if (target == null)
             {

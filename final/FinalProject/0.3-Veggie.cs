@@ -3,8 +3,7 @@ using System;
 class Veggie : Ingredient
 {
 
-    public override void CheckFresh()
-    {
-        
-    }
+    public Veggie() : base()
+    {}
+    // Just goes bad when ingredients are normally expected to go bad
 }
