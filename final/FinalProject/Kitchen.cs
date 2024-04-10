@@ -1,13 +1,13 @@
 using System;
 
-class Kitchen
+public class Kitchen
 {
     private List<Recipe> _cookbook;
     private Pantry _pantry;
 
-    Kitchen()
+    public Kitchen()
     {}
-    Kitchen(string filename)
+    public Kitchen(string filename)
     {
 
     }   
@@ -20,12 +20,12 @@ class Kitchen
     {
         
     }
-    public List<Recipe> MakeableRecipies() 
-    {
-        List<Recipe> recipes = new List<Recipe>();
-        
-        return recipes;
-    }
+    // public List<Recipe> MakeableRecipies() 
+    // {
+    //     List<Recipe> recipes = new List<Recipe>();
+
+    //     return recipes;
+    // }
     public void ChooseRecipe() 
     {
         

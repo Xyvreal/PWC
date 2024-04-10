@@ -47,6 +47,17 @@ class Menu<T>
                     number++;
                 }
             }
+            
+            if (main == true)
+            {
+                Util.FancyS($"{number}. Quit \n=> ", false);
+                
+            }
+            else
+            {
+                number --;
+                Util.FancyS("=> ", false);
+            }
 
             int choice;
 
