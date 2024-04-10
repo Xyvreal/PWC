@@ -37,7 +37,7 @@ static class Utility
         foreach (char r in starting)
         {
             Console.Write(r);
-            Thread.Sleep(10);
+            Thread.Sleep(10); 
         }
     }
     
